@@ -4,7 +4,7 @@ export const dataResult = {
         occupation:"(Mobile Developer)",
         description:"I think positively and can execute on difficult tasks. I’m not an individual who needs to be micromanaged. Rather, when given a specific task, I can figure out the best ways to solve the problem in an autonomous manner. I am a person who is able to control a situation rather than have a situation control me.",
         image:"profilepic.jpeg",
-        bio:"A competent professional with over 6.4 years of experience in Software Development.Currently associated with CAPGEMINI, Bengaluru as a  SeniorConsultant have 6.4 years of production experience in Information technology.Areas of focus include analysis, technical design, development unit testing, documentation of various software applications ",
+        bio:"A competent professional with over 7.7 years of experience in Software Development.Currently associated with CAPGEMINI, Bengaluru as a  SeniorConsultant have 6.4 years of production experience in Information technology.Areas of focus include analysis, technical design, development unit testing, documentation of various software applications ",
         contactmessage:"please send mail on irshad.vali@gmail.com",
         anyQ:"if any queries:",
         email: "irshad.vali@gmail.com",
@@ -65,10 +65,16 @@ export const dataResult = {
         ],
         work:[
           {
+            company:"Altimetrik, Bangalore",
+            title:" Senior Staff Engineer",
+            years:"October 2021 - Present",
+            description:"Playing an individual role in Mobile Development."
+          },
+          {
             company:"Capgemini, ​Bangalore",
             title:" Senior Consultant",
-            years:"March 2020 - Present",
-            description:"Playing an individual role in Mobile Development."
+            years:"March 2020 - October 2021",
+            description:"Playing an individual role in Mobile Development. Handling team of around 20-25 people. Performing code estimation and reviews."
           },
           {
             company:"XelpmocDesign&Tech,B​angalore",

@@ -3,7 +3,7 @@ import {dataResult} from '../utils/resumeData';
 class Footer extends Component {
   render() {
 
-    if(this.props.data){
+    if(dataResult){
       var networks= dataResult.main.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
