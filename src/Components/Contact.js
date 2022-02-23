@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-
+var name='Irshad Vali';
 class Contact extends Component {
+   
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
+      // var name = this.props.data.name;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
@@ -14,6 +15,8 @@ class Contact extends Component {
       var message = this.props.data.contactmessage;
       var anyQ = this.props.data.anyQ;
     }
+
+   
 
     return (
       <section id="contact">
@@ -81,7 +84,7 @@ class Contact extends Component {
 
 					   <h4>Address and Phone</h4>
 					   <p className="address">
-						   {'Irshad Vali'}<br />
+						   {name}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
 						   <span>{phone}</span>
