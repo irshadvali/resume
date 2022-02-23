@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-var name='Irshad Vali';
+import {dataResult} from '../utils/resumeData'; 
 class Contact extends Component {
    
   render() {
 
     if(this.props.data){
-      // var name = this.props.data.name;
+       var name = this.props.data.name;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
@@ -84,9 +84,9 @@ class Contact extends Component {
 
 					   <h4>Address and Phone</h4>
 					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
+						   {dataResult.main.name}<br />
+						   {dataResult.main.address.street} <br />
+						   {dataResult.main.address.city}, {dataResult.main.address.state} {dataResult.main.address.zip}<br />
 						   <span>{phone}</span>
 					   </p>
 				   </div>

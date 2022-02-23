@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-
+import {dataResult} from '../utils/resumeData'; 
 class Testimonials extends Component {
   render() {
 
-    if(this.props.data){
-      var testimonials = this.props.data.testimonials.map(function(testimonials){
+    if(dataResult){
+      var testimonials = dataResult.testimonials.testimonial.map(function(testimonials){
         return  <li key={testimonials.user}>
             <blockquote>
                <p>{testimonials.text}</p>
