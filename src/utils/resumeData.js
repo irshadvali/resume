@@ -128,12 +128,7 @@ export const dataResult = {
       },
       portfolio:{
         projects: [
-          {
-            title:"KNACK",
-            category:"Knack is a fast & simple solution to fully operate your business directly from your phone, anytime, anywhere!",
-            image:"knack.webp",
-            url:"https://play.google.com/store/apps/details?id=com.knack.merchantapp"
-          },
+          
           {
             title:"ThePencil",
             category:"Read Pencil select summaries, shorts, e-books and connect with a global community of future thought leaders.",
@@ -150,7 +145,7 @@ export const dataResult = {
             title:"4TiGO 1Click",
             category:"Fortigo Network Logistics Private Limited",
             image:"fortigone.webp",
-            url:"https://play.google.com/store/apps/details?id=com.fortigo.transporter"
+            url:"https://play.google.com/store/apps/details?id=in.xelpmoc.fortigo.ffa"
           },
           {
             title:"FN FFA",
@@ -163,6 +158,12 @@ export const dataResult = {
             category:"Foreign Exchange Simplified!",
             image:"nafex.webp",
             url:"https://play.google.com/store/apps/details?id=com.nafex.nafex2"
+          },
+          {
+            title:"KNACK",
+            category:"Knack is a fast & simple solution to fully operate your business directly from your phone, anytime, anywhere!",
+            image:"knack.webp",
+            url:"https://play.google.com/store/apps/details?id=com.knack.merchantapp"
           },
           {
             title:"Namaz time",
